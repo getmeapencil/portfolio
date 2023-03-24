@@ -247,6 +247,20 @@ footer {
     font-size: clamp(0.5rem, 4vw , 1rem);
 }
 
+@media screen and (max-height: 550px) {
+    .hello {
+        font-size : clamp(2rem, 10vh, 5rem);
+    }
+
+    .description {
+        font-size : clamp(1rem, 4vh, 2rem);
+    }
+    
+    .description img {
+        width: clamp(3rem, 10vh, 7rem);
+    }
+}
+
 @media screen and (max-width: 550px) {
     html {
         scroll-padding-top: 5rem;
